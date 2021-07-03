@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (max-width:1190px) {
+	.header-search input{width: 250px;font-size: 13px;}	
+	.header-search .search-icon{top: 5px;}
+	.header-search .search-icon img {width: 16px;}
+	.header-right nav ul li{padding: 0 10px;}
+	.list-widget h4{font-size: 15px;}
+	.right-content-container p{display: block;padding-right: 0;}
+	.right-content-container p br{ display: none;}
+	.image-container{ height: auto;}
+	.top-widget ul li{padding: 0 10px;}
+	.stat-widget p{font-size: 18px;}
+	.reaserch-content h3{margin: 0;}
+	.reaserch-content a.extra-link1{ margin-top: 15px;}
+	.testimoni-content h3{ line-height: 36px;}
+	.testimoni-content h3 br{ display: none;}
+	.conversation-inner{padding: 0 40px;}
+	
+	
+}
+
+@media only screen and (max-width:1024px) {
+	.bottom-widget h3{font-size: 22px;}
+	.bottom-widget ul li:first-child{font-weight: 600; font-size: 16px;}
+	.testimoni-content{padding-left: 14%;padding-right: 5%;}
+	.testimoni-content h3{margin-bottom: 15px;}
+	.extra-link{margin: 10px 0 0;}
+}
+
+@media only screen and (max-width:990px) {
+.container, .container-md, .container-sm {max-width: 100%;}	
+.banner-content{padding-left: 20px;}	
+}
+
+@media only screen and (max-width:980px) {
+.header-right nav ul li {padding: 0 7px;}
+}
+	
+@media only screen and (max-width:955px) {
+	.customer-detail img{width: 22px;}
+	.hamberger {padding-left: 15px;}
+}
+	
+@media only screen and (max-width:925px) {
+	.header-search input{width: 230px;}	
+	.conversation-inner {padding: 0 25px;}
+}
+
+@media only screen and (max-width:905px) {
+.header-search input {
+    width: 100%;
+}
+	.header-search .search-icon{display: none;}
+}
+
+@media only screen and (max-width:840px) {
+header .col-md-9{max-width: 100%;flex: 100%;}
+.header-right{margin-top: 15px;position: relative;}	
+	.header-search {display: block;}
+	.header-search input {width: 100%;}
+	.header-search .search-icon {display: inline-block;}
+	.header-right nav{position: absolute;top: -42px;right: 25%;}
+	.customer-login{position: absolute;right: 0;top: -45px;}
+	.finance-option .col-md-8{ max-width: 60%; flex: 60%;}
+	.finance-option .col-md-4{ max-width: 40%; flex: 40%;}
+	.testimoni-content h3{line-height: 30px;font-size: 24px;}
+	.testimoni-content p {font-size: 14px;}
+	
+}
+@media only screen and (max-width:740px) {
+	.header-right nav{top: -44px;right: 28%;}
+	.section-title h3, .section-title h4{padding: 0px 25px;}
+	.list-widget {margin: 20px 0;}
+	.top-widget ul li {padding: 0 5px;font-size: 12px;}
+	.customers .no-space:last-child{margin: -15px 0 0;}
+	.precar-form .form-group{width: 33% !important;border-bottom: 1px solid;}
+	.precar-form .form-widget4{padding-left: 0;}
+	.precar-form .form-widget7 {padding: 0;border: none;text-align: center;width: 100% !important;margin-top: 15px;}
+	.stat-widget{padding: 10px 15px;}
+	.stat-widget h3{padding-top: 20px;font-size: 36px;}
+	.stat-widget p {font-size: 14px;letter-spacing: 2px;}
+	.conversation-inner {padding: 0 15px;}
+}
+
+@media only screen and (max-width:680px) {
+	.header-right nav{right: 30%;}
+	.car-list .col-sm-4{ max-width: 100%; flex: 100%; margin-bottom: 15px;}
+	.finance-option .col-md-8, .finance-option .col-md-4 {max-width: 50%;flex: 50%;}
+	.testimoni-content h3 {line-height: 24px;font-size: 20px;}
+	.testimoni-content p{line-height: 18px;}
+	.extra-link.learn-more {width: 90%;}
+	.conversation-inner {padding: 0 5px;}
+	.bottom-footer p{font-size: 12px;}
+}
+
+@media only screen and (max-width:630px) {
+	header.navbar .col-sm-3 {flex: 0 0 40%;max-width: 40%;}	
+	.logo{margin-left: 50px;z-index: 9;position: relative;}
+	.header-right nav{display: none;}
+	.mobile-menu{display: block;position: absolute!important;top: 7px;}
+	.section-title h3, .section-title h3 span{font-size: 24px;}
+	.section-title h4{font-size: 20px;line-height: 26px;}
+	.car-type li.nav-item a img {width: 50px;margin-right: 15px;}
+	.location-container p {margin: 5px 0 0;font-size: 18px;}
+	.sell-car .extra-link.learn-more {width: 230px;}
+	.precar-form{padding: 10px 60px;}
+	.stats-list .col-sm-3 {flex: 0 0 50%;max-width: 50%;}
+	.stat-widget{height: auto;margin-bottom: 15px;}
+	.conversation-inner span, .conversation-inner a{font-size: 14px;}
+	.conversation-inner span img{width: 18px;}
+}
+
+@media only screen and (max-width:575px) {
+	.large-text h2{font-size: 30px;}
+	.large-text h2 span {font-size: 22px;}
+	.list-widget{text-align: center;}
+	.abstract-shape{left: 48%;}
+	.video-container{display: block;text-align: center;margin-bottom: 25px;}
+	.video-container a{padding-left: 0;}
+	.right-content-container{ text-align: center;}
+	.work-list .list-inner{ margin-bottom: 25px;}
+	.precar-form{overflow: hidden;padding: 10px 20px;}
+	.testimoni-content{padding: 20px 50px 30px !important; text-align: center;}
+	.testimoni-content .extra-link.learn-more {width: 230px; margin: 0 auto;}
+	.conversation-inner {padding: 0 50px 10px;border: none;border-bottom: 1px solid #fff;margin-bottom: 10px;}
+	.conversation-inner:nth-child(3){ border-bottom: none;}
+	.bottom-footer .col-sm-6{text-align: center!important;}
+	.bottom-footer p{ margin: 7px 0;}
+}
+
+@media only screen and (max-width:500px) {
+	header.navbar .col-sm-3 {flex: 0 0 45%;max-width: 45%;}
+	.section-title h3{display: block;text-align: center;border-right: none;border-bottom: 1px solid;padding-bottom: 10px;margin-bottom: 10px;}
+	.section-title h3 span{ display: inline-block;}
+	.section-title h4{display: block;text-align: center;}
+	.car-type li.nav-item a img {width: 30px;margin-right: 5px;}
+	.finance-option .col-md-8, .finance-option .col-md-4 {max-width: 100%;flex: 100%;}
+	.finance-content{display: block;text-align: center;margin-bottom: 20px;}
+	.location-container{width: 50%; margin: 10px 0;}
+	.precar-form .form-group{width: 50% !important;margin-bottom: 15px;padding-left: 0;}
+	.precar-form .form-widget7{ width: 100%!important;}
+	.conversation-inner{padding: 0 30px 10px;}
+	.precarmart-terms ul li a{padding: 0 10px;}
+}
+
+@media only screen and (max-width:480px) {
+	.car-type li.nav-item {width: 100%;margin: 2px 0; }
+	.car-type li.nav-item a, .car-type li.nav-item a:hover{border-right: none; }
+}

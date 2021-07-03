@@ -1,0 +1,237 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ margin: 0; overflow-x: hidden;}
+
+/*header style starts*/
+header{ position: relative;    background: #fff;   padding: 10px 0; box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.1);
+-webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.1);
+-moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.1);z-index: 9;}
+.logo img{ width: 100%;}
+.header-search{display: inline-block; position: relative;}
+.header-search input{ width: 290px; padding: 8px 15px; border: 2px solid #ddd; border-radius: 4px;position: relative;}
+.header-search .search-icon{position: absolute;display: inline-block;top: 8px;right: 15px; vertical-align: middle;}
+.header-search .search-icon img{ width: 18px;}
+.header-right nav{ display: inline-block; vertical-align: middle}
+.header-right nav ul{ padding: 0; margin: 0}
+.header-right nav ul li{ list-style: none; display: inline-block; padding: 0 20px;}
+.header-right nav ul li a{color: #113a63; text-decoration: none;}
+.customer-login{ display: inline-block;}
+.customer-detail{color: #113a63;}
+.customer-detail:hover { text-decoration: none;}
+.hamberger img{ width: 18px;}
+.hamberger{ padding-left: 20px;}
+
+.fixed-top {
+	    top: -40px;
+	    transform: translateY(40px);
+	transition: transform .3s;}
+
+.mobile-menu{ display: none;}
+
+/*header style ends*/
+
+/*banner style starts*/
+.home-banner{ position: relative; display: block; background: url("../images/Rectangle 10.jpg"); background-size: cover;    height: 100vh;background-position: center;}
+.banner-content{ padding-top: 100px;}
+.banner-content h1{ color: #fff;text-transform: uppercase; font-size: 60px;}
+.banner-content h1 span{ display: block;font-size: 42px;}
+.extra-link{display: inline-block;width: 180px;text-align: center;color: #fff;text-decoration: none;margin: 20px 0 0;border: 1px solid #fff;padding: 10px 0; position: relative;}
+.extra-link:hover{ text-decoration: none; color: #ffffff;}
+a.extra-link:after {position: absolute;content: '';background: #ffffff;width: 100%;height: 100%;opacity: .5;left: 5px;top: 5px;}
+/*banner style ends*/
+
+/*large-text style starts*/
+.large-text{    position: relative;display: block;background: #206393;padding: 20px 0;}
+.large-text h2{ margin: 0;color: #fff;text-transform: uppercase;font-size: 36px;text-align: center;}
+.large-text h2 span{font-size: 26px;}
+
+/*large-text style ends*/
+
+/*pre car mart style starts*/
+.buy-precarmart{position: relative;display: block;padding: 50px 0;}
+.section-title{text-align: center;}
+.section-title h3, .section-title h4{ margin: 0;    display: inline-block;vertical-align: middle;padding: 0px 50px;}
+.section-title h3 span{ display: block;font-size: 34px; color: #f9a11c;}
+.section-title h3{ font-size: 30px;color: #113a63;border-right: 1px solid;text-align: left;
+    text-transform: uppercase;}
+.section-title h4{ font-size: 26px;text-align: left; color: #3e3f3e;    line-height: 40px;}
+.quality-list{ margin-top: 50px;}
+.quality-icon{ margin-bottom: 20px; position: relative;}
+.quality-icon img{    width: 60px;}
+.list-widget h4{color: #206393;font-size: 18px;border-bottom: 1px solid #3e3f3e;display: inline-block;padding-bottom: 10px;}
+.list-widget p{color: #206393;}
+.abstract-shape {position: absolute;content: '';width: 70px;height: 70px;background: #ddd;border-radius: 50%;left: 15px;top: -25px;z-index: -1;}
+.abstract-shape.shape1{ background: #c59bb9;}
+.abstract-shape.shape2{ background: #eea394;}
+.abstract-shape.shape3{ background: #9e9dd3;}
+.abstract-shape.shape4{ background: #8cd0c8;}
+.extra-link1{display: inline-block;width: 220px;text-align: center;color: #206393;text-decoration: none;margin: 20px 0 0;border: 1px solid #206393;padding: 10px 0; position: relative;}
+.extra-link1:after{position: absolute;content: '';background: #e1e1e1;width: 100%;height: 100%;;left: 5px;top: 5px; z-index: -1}
+.how-work{ position: relative; background: url("../images/background-2.jpg") no-repeat; background-size: cover;padding: 50px 0;}
+.overlay{ position: absolute; left: 0; top: 0; bottom: 0; right: 0; background: #000000; opacity: 0.5}
+
+/*pre car mart style ends*/
+
+/*How we work*/
+.video-container{display: inline-flex;flex-direction: column;height: 100%;justify-content: center;}
+.video-container a {    padding-left: 30px;text-align: center;}
+.video-container a:hover{ text-decoration: none;}
+.video-container a img{ width: 70px;height: 70px;border: 2px solid #fff;border-radius: 50%;padding: 12px;}
+.video-container a span{display: block;margin-top: 10px;color: #fff;font-size: 24px;}
+.right-content-container{color: #fff;}
+.right-content-container p{ font-size: 20px;margin: 0;border-top: 1px solid #fff;padding-top: 10px;display: inline-block;padding-right: 30px;}
+.work-list{position: relative;margin-top: 50px;}
+.list-icon img{ width: 80px;}
+.work-list p{ border: none; font-size: 16px; margin-top: 10px; padding: 0;}
+
+/*How we work*/
+
+/*Choose by style*/
+.choose-style{position: relative;padding: 50px 0 0;}
+.car-type{ padding-top: 50px;}
+.car-type ul.nav-tabs{box-shadow: 0px 5px 5px 0px rgb(0 0 0 / 10%);
+    -webkit-box-shadow: 0px 5px 5px 0px rgb(0 0 0 / 10%);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.1);}
+.car-type li.nav-item {width: 33.3%;}
+.car-type li.nav-item a { text-align: center; background: #206393;    border-radius: 0;
+    color: #fff;border: none;border-right: 1px solid; text-transform: uppercase;padding: 20px 0;}
+.car-type li.nav-item a:hover{ border: none;border-right: 1px solid;}
+.car-type li.nav-item:last-child a{border-right: none;}
+.car-type li.nav-item a.active{    background: #dd4829;color: #fff;}
+.car-type li.nav-item a img{ width: 70px;    margin-right: 20px;}
+.border-style{display: inline-block;border-bottom: 1px solid;padding: 0 15px;}
+.car-type .tab-pane{padding: 25px;}
+.image-container{    width: 100%;height: 250px;overflow: hidden;}
+.image-container img{width: 100%;}
+.detail-widget{ position: relative;border: 2px solid #113a63; border-top: none;}
+.top-widget ul{ padding: 0; display: table; width: 100%;    padding-top: 10px;
+    border-bottom: 1px solid #113a63;padding-bottom: 10px;} 
+.top-widget ul li{ list-style: none; display: table-cell; text-align: center;    padding: 0 30px;}
+.bottom-widget{padding: 0 20px 20px;}
+.bottom-widget h3{color: #206393;}
+.bottom-widget ul{ padding: 0; display: table; width: 100%;margin-top: 15px;}
+.bottom-widget ul li{display: table-cell; width: 50%; font-size: 22px;}
+.bottom-widget ul li:last-child{ text-align: right;}
+.bottom-widget ul li span{ font-size: 16px;}
+.vehicle-detail{color: #dd4829;display: block;text-align: center;text-decoration: none;border: 1px solid #dd4829;padding: 8px 0;margin-bottom: 10px;}
+.book-now{color: #206393;display: block;text-align: center;text-decoration: none;border: 1px solid #206393;padding: 8px 0;}
+
+
+/*Choose by style*/
+
+
+/*customer photos*/
+.location{ padding-bottom: 50px;}
+.customers{ position: relative; padding: 50px 0 40px;}
+.customers img{ width: 100%;}
+.no-space{ padding: 0;}
+/*customer photos*/
+
+/*Choose by location*/
+.top-locations{ position: relative; padding-top: 30px; overflow: auto;}
+.location-container {position: relative;display: inline-block;width: 20%;float: left;text-align: center;}
+.location-container img{ width: 80%;}
+.location-container p{    margin: 10px 0 0;font-size: 22px;color: #206393;}
+
+/*Choose by location*/
+
+/*sell your car*/
+.sell-car{ position: relative; background: url("../images/background-3.jpg")no-repeat; background-size: cover;padding: 120px 0;}
+.sell-car-content h2 { margin-bottom: 20px; color: #3e3f3e;}
+.sell-car-content h2 span{ color: #dd4829;}
+.sell-car-content p{ margin-bottom: 0; font-size: 18px;color: #3e3f3e;}
+.extra-link.learn-more{width: 250px;}
+.precar-details{position: relative;border: 2px solid #3e3f3e;border-top: 0;padding: 20px 0 30px;overflow: auto;}
+.precar-form{    position: relative;overflow: auto;border: 2px solid #3e3f3e;padding: 10px 20px;}
+
+.precar-form .form-group{display: inline-block;margin: 0;width: 12%;float: left;padding: 0 20px;}
+.precar-form .form-group label{ display: block;margin: 0;font-weight: 700;}
+.precar-form .form-group input{  border: none;padding: 0; background: none;}
+.precar-form .form-group input:focus{ outline: none!important;}
+.precar-btn{display: inline-block;width: 100%;text-align: center;color: #206393;text-decoration: none;margin: 0;border: 1px solid #206393;padding: 10px 0;position: relative;background: none;}
+/*.precar-btn:after{position: absolute;content: '';background: #e1e1e1; width: 100%;height: 100%;left: 5px;top: 5px;z-index: -1;}*/
+.precar-form .form-widget1{ width: 10%;padding-left: 0;}
+.precar-form .form-widget4{width: 20%;}
+.precar-form .form-widget5, .precar-form .form-widget7{width: 17%;}
+.precar-form .form-widget7{padding-right: 0;}
+
+/*sell your car*/
+
+/*Precarmart stats*/
+.stats{ padding: 50px 0;}
+.stats-list{position: relative;margin-top: 50px;}
+.stat-widget{  position: relative;color: #fff;padding: 30px;height: 100%;}
+.bg-color1{background: #dd4829;}
+.bg-color2{background: #d8a173;}
+.stat-widget h3{ border-top: 1px solid #fff;padding-top: 30px;font-size: 42px;}
+.stat-widget h3 span{font-size: 24px;}
+.stat-widget p{margin: 0;font-size: 24px;text-transform: uppercase;letter-spacing: 3px;}
+/*Precarmart stats*/
+
+/*Finance Option*/
+
+.finance-option{ position: relative; background:url("../images/background-2.jpg") no-repeat; background-size: cover; padding: 30px 0;}
+.finance-content{ display: flex;flex-direction: column;height: 100%;justify-content: center;}
+.finance-content h2{color: #fff;font-size: 60px;}
+.finance-content h2 span {display: block;font-size: 36px;text-transform: uppercase;}
+.price-slider {-webkit-appearance: none;width: 100%;height: 2px;background: #206393;outline: none;opacity: 1;-webkit-transition: .2s;transition: opacity .2s;}
+
+.price-slider::-webkit-slider-thumb {-webkit-appearance: none;appearance: none;width: 15px;height: 15px;background: #206393;cursor: pointer;border-radius: 50%;}
+.price-slider::-moz-range-thumb {width: 15px;height: 15px;background: #206393;cursor: pointer;border-radius: 50%;}
+.calculate-area label{ margin: 0;font-weight: 500;}
+.calculate-area .form-group{ position: relative;} 
+.loan-amount{    position: absolute;right: 0;font-size: 18px;color: #206393;font-weight: 500;}
+.calculate-area .form-group div{position: relative;}
+.calculate-area .form-group div span{ font-size: 13px;}
+.range-sliderValue2{  position: absolute;right: 0;}
+.finance-calculator{  position: relative;background: #fff;padding: 30px;border-radius: 14px;}
+.finance-calculator h4{text-align: center;font-size: 26px;color: #113a63;}
+.finance-calculator p.monthly-emi{    text-align: center;font-size: 18px;color: #dd4829;}
+.loan-condition{    font-size: 12px;text-align: center;}
+.finance-btn{    width: 100%;background: #3e3f3e;color: #fff;border: none;padding: 8px 0;border-radius: 8px;}
+/*Finance Option*/
+
+/*Best Selling*/
+.best-selling{position: relative;padding: 30px 0;}
+.reaserch-content{ text-align: center;}
+.reaserch-content h3{display: inline-block;margin: 0 30px 0 0;vertical-align: middle;font-size: 32px;color: #206393;}
+.reaserch-content h3 span{    color: #f9a11c;}
+.reaserch-content a.extra-link1{ margin-top: 0; vertical-align: middle;}
+/*Best Selling*/
+
+.testimoni-content{color: #fff;position: relative;height: 100%;background: #206393;display: flex;flex-direction: column;justify-content: center;padding-left: 24%;padding-right: 15%;}
+.testimoni-content h3{font-size: 30px; line-height: 48px; margin-bottom: 25px;}
+.testimoni-content p{ font-size: 18px;}
+.testimonial-pic img{ width: 100%;}
+
+
+.faq{position: relative; padding: 50px 0;}
+.faq .card { border: none;}
+.faq-container{    border-top: 1px solid #f9a11c;}
+.faq-container .card-header{ border-radius: 0; background: none; border-bottom: none;    padding: .75rem 0;}
+.faq-container .card-title{display: block;color: #3e3f3e;margin: 0;cursor: pointer; text-decoration: none;font-size: 18px;font-weight: 500; position: relative;}
+.faq-container .card-body{padding: 1.25rem 0;}
+.title-section{font-size: 30px;color: #113a63;margin-bottom: 30px;}
+.faq-container .card-title:after { content: 'ˬ';position: absolute;right: 0;top: auto;bottom: 5px;font-size: 45px;display: inline-block;font-weight: 200;}
+
+
+footer{  position: relative;background: #206393;color: #fff;padding: 30px 0;}
+.top-footer{text-align: center;    padding-bottom: 30px;border-bottom: 1px solid;margin-bottom: 30px;}
+.top-footer p{ font-size: 18px;}
+.conversation-inner{display: inline-block;    padding: 0 50px;border-right: 1px solid #fff;}
+.conversation-inner:last-child{ border: none;}
+.conversation-inner span{display: block; margin-bottom: 10px;}
+.conversation-inner span img{    width: 24px;margin-right: 5px;}
+.conversation-inner  a{color: #fff;text-decoration: none;}
+.quick-links h4{ font-size: 18px;border-bottom: 1px solid;padding-bottom: 2px;margin-bottom: 10px;}
+.quick-links ul{ padding: 0;list-style: none;}
+.quick-links ul li a{ font-size: 14px; color: #fff; padding: 5px 0; display: inline-block}
+.precarmart-terms{position: relative;text-align: center;padding-top: 50px;}
+.precarmart-terms ul{ list-style: none;padding: 0;}
+.precarmart-terms ul li{ display: inline-block;}
+.precarmart-terms ul li a{ color: #fff; padding: 0 20px; border-right: 1px solid; font-size: 14px;}
+.precarmart-terms ul li:last-child a{ border: none;}
+.bottom-footer p{ margin: 0; font-size: 14px;}
+.bottom-footer{    position: relative;border-top: 1px solid;padding-top: 20px;}
+
